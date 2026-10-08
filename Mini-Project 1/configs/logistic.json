@@ -1,0 +1,32 @@
+{
+  "model_name": "logistic_regression",
+  "dataset_version": "encoded",
+  "preprocessing": {
+    "numeric_imputation": "median",
+    "scaling": "StandardScaler",
+    "preprocessing_scope": "fit separately within each training fold"
+  },
+  "hyperparameters": {
+    "solver": "saga",
+    "penalty": "elasticnet",
+    "l1_ratio": 0.5,
+    "C": 0.01,
+    "max_iter": 2000,
+    "class_weight": null,
+    "random_state": 21352822
+  },
+  "non_predictor_columns": [
+    "SK_ID_CURR",
+    "TARGET",
+    "FOLD"
+  ],
+  "cv": {
+    "fold_column": "FOLD",
+    "n_splits": 5,
+    "using_existing_folds": true
+  },
+  "metrics": [
+    "roc_auc",
+    "average_precision"
+  ]
+}

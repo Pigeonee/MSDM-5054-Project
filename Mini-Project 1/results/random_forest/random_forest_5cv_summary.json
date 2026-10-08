@@ -1,0 +1,71 @@
+{
+  "n_folds": 5,
+  "mean_roc_auc": 0.7680656573169325,
+  "std_roc_auc": 0.004103673010349345,
+  "mean_average_precision": 0.2493741296311549,
+  "std_average_precision": 0.005355033609284462,
+  "per_fold_details": [
+    {
+      "fold": 0,
+      "n_train": 246008,
+      "n_validation": 61503,
+      "positive_rate": 0.08072776937710356,
+      "roc_auc": 0.7630853307333656,
+      "average_precision": 0.247796958976374
+    },
+    {
+      "fold": 1,
+      "n_train": 246009,
+      "n_validation": 61502,
+      "positive_rate": 0.08072908198107379,
+      "roc_auc": 0.7686177297007025,
+      "average_precision": 0.24438281571047893
+    },
+    {
+      "fold": 2,
+      "n_train": 246009,
+      "n_validation": 61502,
+      "positive_rate": 0.08072908198107379,
+      "roc_auc": 0.7646799435730322,
+      "average_precision": 0.24500847604664844
+    },
+    {
+      "fold": 3,
+      "n_train": 246009,
+      "n_validation": 61502,
+      "positive_rate": 0.08072908198107379,
+      "roc_auc": 0.7723331872909615,
+      "average_precision": 0.2527835012082549
+    },
+    {
+      "fold": 4,
+      "n_train": 246009,
+      "n_validation": 61502,
+      "positive_rate": 0.08072908198107379,
+      "roc_auc": 0.7716120952866005,
+      "average_precision": 0.2568988962140183
+    }
+  ],
+  "model": "RandomForestClassifier",
+  "parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced_subsample",
+    "criterion": "gini",
+    "max_depth": 18,
+    "max_features": 0.5,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 20,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 150,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 1,
+    "warm_start": false
+  }
+}

@@ -1,0 +1,2 @@
+experiment,n_features,mean_roc_auc,std_roc_auc,oof_roc_auc,mean_pr_auc,std_pr_auc,oof_pr_auc,all_folds_converged,max_n_iter
+BEST_PARAMS_LR_MODEL,511,0.7780343412746007,0.005155869123905058,0.7780151162351027,0.26467174369738244,0.007907288626739777,0.26425399247778775,True,1350

@@ -1,0 +1,6 @@
+model,experiment,fold,n_features,roc_auc,pr_auc,n_iter,max_iter,convergence_warning,converged,seconds
+LogisticRegression,LR_baseline,0,511,0.7728235217715063,0.26071282204139207,77,500,False,True,14.528844833374023
+LogisticRegression,LR_baseline,1,511,0.7779672166491652,0.26070608681617,74,500,False,True,14.794826984405518
+LogisticRegression,LR_baseline,2,511,0.7726057391570664,0.2536921456645646,77,500,False,True,14.110501289367676
+LogisticRegression,LR_baseline,3,511,0.7801645211227163,0.27130512572315013,74,500,False,True,13.641828060150146
+LogisticRegression,LR_baseline,4,511,0.784864157171018,0.2715700849540393,81,500,False,True,14.436372995376587

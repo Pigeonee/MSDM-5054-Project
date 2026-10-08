@@ -1,0 +1,86 @@
+{
+  "n_folds": 5,
+  "mean_roc_auc": 0.7929771214377092,
+  "std_roc_auc": 0.004479995536856043,
+  "mean_average_precision": 0.28900096149056415,
+  "std_average_precision": 0.007688972466052467,
+  "mean_pr_auc_trapezoid": 0.2888098818070729,
+  "std_pr_auc_trapezoid": 0.007703536272674017,
+  "per_fold_details": [
+    {
+      "fold": 0,
+      "n_train": 246008,
+      "n_validation": 61503,
+      "positive_rate": 0.08072776937710356,
+      "roc_auc": 0.7867969753394566,
+      "average_precision": 0.2882893802809118,
+      "pr_auc_trapezoid": 0.28814259150287047,
+      "prediction_source": "verified saved FOLD=0 prediction",
+      "seconds": 0.21
+    },
+    {
+      "fold": 1,
+      "n_train": 246009,
+      "n_validation": 61502,
+      "positive_rate": 0.08072908198107379,
+      "roc_auc": 0.7926290264940884,
+      "average_precision": 0.2811769546228693,
+      "pr_auc_trapezoid": 0.28096336608411887,
+      "prediction_source": "new training",
+      "seconds": 79.95
+    },
+    {
+      "fold": 2,
+      "n_train": 246009,
+      "n_validation": 61502,
+      "positive_rate": 0.08072908198107379,
+      "roc_auc": 0.790855567300338,
+      "average_precision": 0.28189329512978667,
+      "pr_auc_trapezoid": 0.28166594901988345,
+      "prediction_source": "new training",
+      "seconds": 73.9
+    },
+    {
+      "fold": 3,
+      "n_train": 246009,
+      "n_validation": 61502,
+      "positive_rate": 0.08072908198107379,
+      "roc_auc": 0.7971352948895447,
+      "average_precision": 0.2958517300054109,
+      "pr_auc_trapezoid": 0.29570423769910753,
+      "prediction_source": "new training",
+      "seconds": 68.86
+    },
+    {
+      "fold": 4,
+      "n_train": 246009,
+      "n_validation": 61502,
+      "positive_rate": 0.08072908198107379,
+      "roc_auc": 0.7974687431651182,
+      "average_precision": 0.29779344741384217,
+      "pr_auc_trapezoid": 0.29757326472938417,
+      "prediction_source": "new training",
+      "seconds": 74.55
+    }
+  ],
+  "model": "XGBClassifier",
+  "parameters": {
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "tree_method": "hist",
+    "n_estimators": 505,
+    "learning_rate": 0.05,
+    "max_depth": 5,
+    "min_child_weight": 20,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "reg_lambda": 2.0,
+    "max_bin": 128,
+    "random_state": 42,
+    "n_jobs": 4,
+    "verbosity": 0
+  },
+  "n_features": 511,
+  "source_signature": "csv|660945209:b4325eec2e35d6bd0103db9d0e8140d4a740ea82bd228754a81de54f5964de30|110103568:cdc536652c8e68446c4871913172c31443ea4f30576506e8e6c8a3d3e60263af",
+  "provenance_note": "Hyperparameters were selected using this same dataset before this five-fold run. These post-selection cross-validation scores describe fold variation; they are not an independent test estimate. Kaggle test labels are unavailable."
+}

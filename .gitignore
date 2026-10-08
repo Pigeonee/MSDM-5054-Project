@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+
+# Temporary files
+*.log
+
+# Raw data
+Mini-Project 1/data/
+Bonus-Project 1/data
+
+# Separate Git repository
+MSDM 5001/Assignments/Assignment_1/GitHub/MSDM5001_Lecture2/

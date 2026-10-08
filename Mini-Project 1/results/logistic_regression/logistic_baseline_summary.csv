@@ -1,0 +1,2 @@
+experiment,n_features,mean_roc_auc,std_roc_auc,oof_roc_auc,mean_pr_auc,std_pr_auc,oof_pr_auc,all_folds_converged,max_n_iter
+LR_baseline,511,0.7776850311742944,0.005176891687901605,0.7776617820822678,0.2635972530398632,0.007709852243519741,0.26320079551716946,True,81
